@@ -9,7 +9,7 @@ env:
   # time zone
   TZ: Asia/Shanghai
 
-  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
   # network proxy aggregate config
   SUBSCRIBE_CONF: ${{ secrets.SUBSCRIBE_CONF }}
